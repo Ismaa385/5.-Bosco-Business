@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bosco Business</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+        body { font-family: "Oswald", sans-serif;background-color: gray;}
+        * {margin: 0;box-sizing: border-box;}
+        nav {background-color: midnightblue;color: white;font-family: Arial, Helvetica, sans-serif;padding: 10px;display: flex;justify-content: space-around;}
+        nav a {color: white;text-decoration: none;}
+        nav a:hover {color: red;font-weight: bold;text-shadow: 3px 3px 5px white;}
+        header {background-image:url(media/business.jpg);height: 400px;display: flex;justify-content: center;align-items: center;}
+        #titular {text-align: center;}
+        #titular h1 {color: white;text-shadow: 3px 3px 5px black;font-size: 3em;}
+        #titular h2 {color: orange;text-shadow: 3px 3px 5px black;}
+        section#nuestros-clientes {text-align: center;padding: 20px;}
+        section#nuestros-clientes img {border-radius: 50%;}
+        .titulo {color: purple;font-size: 0.9em;}
+        footer {background-color: gray;padding: 20px;color: white;text-align: center;}
+        #contenedor-quienes-somos {display: flex;justify-content: space-around;padding: 10px;}
+        #izqui,#der {width: 40%;}
+        #der img {width: 100%;}
+        .titulo {text-align: center;color: brown;text-shadow:3px 3px 5px black;}
+        section#obras {background-color: antiquewhite;padding: 20px}
+        #contenedor-obras {;display: flex;flex-wrap: wrap;justify-content: space-around;}
+        .obra {width:30%;border: 2px solid blue;text-align: center;}
+        #contenedor-footer {display: flex;justify-content: space-around;}
+        .obra img {width: 90%;}
+        #titulo-footer {text-align: center;border-bottom: 2px solid white;padding: 10px;}
+        footer a {color: white;text-decoration: none;}
+    </style>
+</head>
+<body>
+    <nav>
+      <a href="#">Quienes somos</a>
+      <a href="#">Consultoria</a>
+      <a href="#">Diseño Web</a>
+      <a href="#">Dónde estamos</a>
+      <a href="#">Contacto</a>
+    </nav>
+    <header>
+        <div id="titular">
+           <h1>Bosco Business</h1>
+            <h2>Tu puerta al futuro</h2>
+        </div>
+    </header>
+    <section id="nuestros-clientes">
+     <h2 class="titulo">
+         Nuestros Clientes
+     </h2>
+     <img src="media/chica.jpg" alt="">
+     <h4>Bosco Business es la solución para mi empresa</h4>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non soluta quas autem eum necessitatibus repellendus incidunt fugiat atque rem ab, dolore cupiditate numquam dolorum accusamus ipsa consequatur sequi deserunt. Veniam!</p>
+    </section>
+    <section id="quienes-somos">
+       <h1 class="titulo">
+          Quienes somos
+       </h1>
+        <div id="contenedor-quienes-somos">
+          <div id="izqui">
+           <h1>Un equipo multidisciplinar y profesional</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic dolore dolorum modi suscipit et recusandae ullam cupiditate harum. Aut eveniet molestias similique error. Eveniet necessitatibus impedit aspernatur nostrum ut dolores.
+            </p>
+          </div>
+          <div id="der">
+            <img src="media/construccion-arquitectos-trabajo-equipo-disenador-ingenieros-tecnico-que-trabajan-juntos-plano-planificacion-reuniones-arquitectura-equipo-diseno-trabajando-sitio-construccion_590464-110723.avif" alt="">
+          </div>
+        </div>
+    </section>
+    <section id="obras">
+     <h1 class="titulo">
+        Obras
+     </h1>
+      <div id="contenedor-obras">
+        <div class="obra">
+        <img src="media/cristiano-ronaldo-se-construye-una-casa-cuando-se-U3THPQQEEZAAVPJY23AVVZHH4M.avif" alt="">
+        <p>Sevilla</p>
+        </div>
+        <div class="obra">
+        <img src="media/cristiano-ronaldo-se-construye-una-casa-cuando-se-U3THPQQEEZAAVPJY23AVVZHH4M.avif" alt="">
+        <p>Madrid</p>
+        </div>
+        <div class="obra">
+        <img src="media/cristiano-ronaldo-se-construye-una-casa-cuando-se-U3THPQQEEZAAVPJY23AVVZHH4M.avif" alt="">
+        <p>Barcelona</p>
+        </div>
+        <div class="obra">
+        <img src="media/cristiano-ronaldo-se-construye-una-casa-cuando-se-U3THPQQEEZAAVPJY23AVVZHH4M.avif" alt="">
+        <p>Lugo</p>
+        </div>
+        <div class="obra">
+        <img src="media/cristiano-ronaldo-se-construye-una-casa-cuando-se-U3THPQQEEZAAVPJY23AVVZHH4M.avif" alt="">
+        <p>Tomelloso</p>
+        </div>
+        <div class="obra">
+        <img src="media/cristiano-ronaldo-se-construye-una-casa-cuando-se-U3THPQQEEZAAVPJY23AVVZHH4M.avif" alt="">
+        <p>Pedro Muñoz</p>
+        </div>
+      </div>
+    </section>
+    <footer>
+        <div id="titulo-footer">
+         Contacte con nosotros trabajamos los 365 días del año   
+        </div>
+        <div id="contenedor-footer">
+         <div>
+            <h2>Enlaces</h2>
+            <a href="">Facebook</a>
+            <a href="">Twitter</a>
+            <a href="">Instagram</a>
+         </div>
+            <div>
+            <h2>Estamos en</h2>
+            <p>Avda. Los institutos s/n</p>
+            <p>13600 Alcazar de San Juan</p>
+         </div>
+         <div>
+            <h2>Email</h2>
+            <p>ismaelizquierdorosado@gmail.com</p>
+         </div>
+        </div>
+    </footer>
+</body>
+</html>
