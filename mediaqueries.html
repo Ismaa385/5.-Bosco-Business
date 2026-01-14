@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Bosco Business 2</title>
+    <script src="https://kit.fontawesome.com/15c0259ea6.js" crossorigin="anonymous"></script>
     <style>
         /* el color para el movil va a ser aquamarine */
         * {box-sizing: border-box;margin: 0;}
@@ -22,8 +23,21 @@
 
        #contenedor-quienes-somos p {font-size: 3em;}
 
+       #nuestros-servicios {background-color: white;}
+
+       .servicios {color: blue;text-align: center ;border: 2px solid blue;border-radius: 10px;
+       font-size: 3em;padding: 10px;margin-bottom: 10px;width:100%;}
+
+       .servicios:hover {color: red;}
+
+       .titulo {text-align: center;font-family: Arial, Helvetica, sans-serif;font-size: 2em;padding: 10px;}
+
         /* 2.para dispositivos de mas de 768px el color de fondo es rosa claro */
         @media (min-width:768px) { body {background-color: purple;} 
+
+        #contenedor-nuestros-servicios {display: flex;flex-wrap: wrap;justify-content: space-around;}
+
+        .servicios {width:45%;}
 
         header {background-image: url("media/67bc677cecc097f47357c7d2_thumbnail.jpeg");background-position: center center;} 
 
@@ -37,10 +51,16 @@
 
            #contenedor-quienes-somos p {width: 45%;}
 
+           
+
         } 
 
           /* 3.para dispositivos de mas de 1000px el color de fondo es azul oscuro*/
-        @media (min-width:1000px) { body {background-color: yellow;} }
+        @media (min-width:1000px) { body {background-color: yellow;} .servicios {width:30%;font-size: 2em;}}
+
+       
+
+
     </style>
 </head>
 <body>
@@ -60,6 +80,35 @@
            <img src="media/mecanicos-masculinos-femeninos-que-trabajan-tienda-automovil_23-2150169943.avif" alt="">
             <p>Somos una empresa joven y dinamica Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi veniam culpa sint earum quo nemo maxime! Error, perferendis laudantium sed saepe accusamus sapiente, molestias rem, quia repellat ullam ipsam quos.</p>
         </div>
+    </section>
+    <section id="nuestros-servicios">
+        <h1 class="titulo">
+            Nuestros servicios
+        </h1>
+        <div id="contenedor-nuestros-servicios">
+              <div class="servicios">
+          <i class="fa-solid fa-screwdriver-wrench"></i>
+          <p>Servicio Técnico</p>
+      </div>
+        <div class="servicios">
+          <i class="fa-solid fa-phone"></i>
+          <p>Atención telefónica</p>
+      </div>
+      <div class="servicios">
+     <i class="fa-solid fa-truck"></i>
+          <p>Servicio a domicilio</p>
+      </div>
+        <div class="servicios">
+    <i class="fa-solid fa-car"></i>
+          <p>Vehículo de sustitución</p>
+      </div>
+        <div class="servicios">
+   <i class="fa-solid fa-circle-info"></i>
+          <p>Información</p>
+      </div>
+        </div>
+    
+
     </section>
 
 
